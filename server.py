@@ -10,18 +10,9 @@ def initializeMagicNum():
 		session["magicNum"]
 	except KeyError:
 		session["magicNum"] = int(round((random.random())*100))
-	try: 
-		session["guess"]
-	except KeyError:
 		session["guess"] = 0
-	try:
-		session["style"]
-	except KeyError:
 		session["style"] = "hide"
 		session["showHide"] = ["hide", "show"]
-	try: 
-		session["newGame"]
-	except KeyError:
 		session["newGame"] = True
 		session["resultText"] = ""
 
