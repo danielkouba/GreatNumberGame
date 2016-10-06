@@ -1,0 +1,26 @@
+*{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper {
+	width:400px;
+	margin:auto;
+	text-align:center;
+}
+.hide{
+	display:none;
+}
+.red {
+	background-color:red;
+}
+.green{
+	background-color: green;
+}
+.red, .green{
+	display:block;
+	margin:0 100px;
+	color:white;
+	width:200px;
+	height:200px;
+	box-sizing: border-box;
+	padding:50px;
+}
